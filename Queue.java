@@ -58,7 +58,11 @@ total = Number of Elements in the Stack
     // View All the elements
     private void showAll(){
        for(int each: queue){
-           System.out.println(each);
+           
+           // 0 will not be printed
+           if(each != 0) {
+               System.out.println(each);
+           }
        }
     }
 
